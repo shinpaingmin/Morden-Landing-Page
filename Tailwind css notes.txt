@@ -1,0 +1,20 @@
+* CREATE A NEW PACKAGE .JSON FILE
+
+npm init -y
+
+* INSTALLING TAILWIND VIA NPM
+
+npm install -D tailwindcss
+
+*INITIALiZING TAILWIND CONFIG JS FILE
+
+npx tailwindcss init
+
+What is Tailwind configuration?
+	
+	At the heart of every Tailwind project is a JavaScript configuration file that serves as the home for your project's design system. It's where you define your color palette,
+font stacks, type scale, border sizes, breakpoints, opacity scale, you name it.
+
+*CONFIGURING YOUR TEMPLATE PATHS
+
+content: ["./*.html"]
